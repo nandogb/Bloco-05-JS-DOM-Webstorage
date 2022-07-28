@@ -17,4 +17,4 @@ let titulo = document.getElementById("titulo");
 
 let lista = document.querySelectorAll("p")
 
-console.log(lista)
+// console.log(lista)
