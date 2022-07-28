@@ -61,10 +61,9 @@ let numeros = [
 
 let lista = document.createElement("ol");
 
-let elementosDaLista = document.createElement("li");
+lista.className = "lista-de-numeros"
 
-for (let index = 0; index < numeros.length; index += 1) {
-  let element = numeros[index];
-  elementosDaLista.innerText = element;
-console.log(elementosDaLista);
-}
+secaoDois.appendChild(lista)
+
+let numbers = document.createElement("li")
+
